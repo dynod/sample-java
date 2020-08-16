@@ -4,6 +4,9 @@
 WORKSPACE_ROOT := $(CURDIR)/../../..
 PROJECT_ROOT := $(CURDIR)
 
+# Java library name
+JAVA_LIB_NAME := sample
+
 # Workspace makefile suite - defs
 include $(WORKSPACE_ROOT)/.workspace/main.mk
 
